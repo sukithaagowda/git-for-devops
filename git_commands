@@ -1,0 +1,10 @@
+git init
+git status
+git add filename
+git commit -m "message"
+git push
+git pull
+git branch
+git remote -v
+git log
+git log -p
