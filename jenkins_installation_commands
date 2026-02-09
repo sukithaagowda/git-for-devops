@@ -1,0 +1,35 @@
+ # Jenkins Installation Command
+
+    java - check if java is installed or not
+    yum list | grep java - list all the java packages available
+    yum install java-21* - check which is the preferred version needed fo Jenkins then install the same.
+    java --version - after installing check the version
+    jenkins - check if jenkins is installed or not
+    yum insall jenkins - install jenkins with the help of Jenkins.io website
+    wget -O /etc/yum.repos.d/jenkins.repo \https://pkg.jenkins.io/rpm-stable/jenkins.repo
+    yum install jenkins
+    jenkins --version
+    cat /etc/os-release 
+    wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
+    yum install ./google-chrome-stable_current_x86_64.rpm 
+    ls
+    rm google-chrome-stable_current_x86_64.rpm 
+    rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+    dnf upgrade
+    systemctl status jenkis - check the status of the jenkins firstly it will be disabled so you need to start by the following commands.
+    systemctl status jenkins
+    systemctl start jenkins
+    systemctl status jenkins
+    systemctl enable jenkins - Jenkins service will be running actively but it will be disabled so you need to enable by this command.
+    systemctl status jenkins
+    /var/lib/jenkins/secrets/initialAdminPassword - check for jenkins password with this command.
+    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+    systemctl status jenkins
+    systemctl start jenkins
+    systemctl status jenkins
+    ifconfig - you can login to jenkins with ip address so get the ip address from this command.
+    systemctl stop jenkins
+    systemctl status jenkins
+    systemctl start jenkins
+    
+
